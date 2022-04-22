@@ -5,7 +5,9 @@ import './App.css';
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
+import ApiCall from './pages/ApiCall';
 import Home from './pages/Home';
+
 // import Spells from './pages/Spells';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -18,7 +20,7 @@ function App() {
         <NavigationBar/>
         <Routes>
           <Route path='/' element={<Home/>}/>
-          {/* <Route path='spells' element={<Spells/>} /> */}
+          <Route path='ApiCall' element={<ApiCall/>}/>
         </Routes>
       </Router>
     </div>

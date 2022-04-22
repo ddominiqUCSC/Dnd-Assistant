@@ -8,5 +8,13 @@ export const SidebarData = [
     path: '/',
     icon: <AiIcons.AiFillHome />,
     cName: 'nav-text'
+  },
+
+
+  {
+    title: 'apiCall',
+    path: '/apiCall',
+    icon: <AiIcons.AiFillHome />,
+    cName: 'nav-text'
   }
 ];
